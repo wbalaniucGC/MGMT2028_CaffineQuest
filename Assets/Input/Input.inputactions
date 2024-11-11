@@ -3,12 +3,12 @@
     "maps": [
         {
             "name": "Gameplay",
-            "id": "706050fb-8957-47fe-87af-358b6da88aa2",
+            "id": "ef244ea3-f2f8-4b56-8ef6-2791ea5525df",
             "actions": [
                 {
                     "name": "Movement",
                     "type": "Value",
-                    "id": "e12c6168-43fb-4c3f-ab63-c2b452f50ea9",
+                    "id": "d5d3470c-a26a-4e0c-9268-3bffbd369e3c",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -17,7 +17,7 @@
                 {
                     "name": "Jump",
                     "type": "Button",
-                    "id": "d41ead7d-d958-473c-980a-fc41e7f5d368",
+                    "id": "cd9acd50-6fc0-481e-b15a-13e489581c4d",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -27,7 +27,7 @@
             "bindings": [
                 {
                     "name": "2D Vector",
-                    "id": "85910d62-bf33-4877-8033-5deceaee1cc1",
+                    "id": "d74be9f0-d286-4160-8b4a-24f70d842360",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -38,110 +38,55 @@
                 },
                 {
                     "name": "up",
-                    "id": "03ae3ab5-1348-4b10-95d7-1e4c34d7c9f4",
+                    "id": "8d9bdeea-66d8-4571-bc5e-7745245636f9",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Keyboard+Mouse",
+                    "groups": "",
                     "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "down",
-                    "id": "4c4e7ca8-3882-49ce-a7ed-90c0ccacfedf",
+                    "id": "1188feb6-b183-4794-bcb5-6f0f50efabe8",
                     "path": "<Keyboard>/s",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard+Mouse",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "e923bbf4-9566-4ee5-8a58-8eb5f4ffcbc9",
-                    "path": "<Keyboard>/a",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard+Mouse",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "right",
-                    "id": "c47432bc-affc-48f8-9c8b-463d9a1ae17c",
-                    "path": "<Keyboard>/d",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard+Mouse",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "2D Vector",
-                    "id": "c73f1dde-3abf-4321-93b8-088372cd4d2d",
-                    "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Movement",
-                    "isComposite": true,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "up",
-                    "id": "86ae2a7e-0779-43d6-ae07-133d6811b540",
-                    "path": "<DualShockGamepad>/dpad/up",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Playstation",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "dc88e757-cc29-44fc-81d7-09b4013df7ee",
-                    "path": "<DualShockGamepad>/dpad/down",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Playstation",
-                    "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "left",
-                    "id": "708f1a00-e100-4553-b628-a224341b6510",
-                    "path": "<DualShockGamepad>/dpad/left",
+                    "id": "93724977-bce1-45ae-b623-40dc51b852ff",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Playstation",
+                    "groups": "",
                     "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "right",
-                    "id": "c7e87c96-a748-4014-94a4-799855e37563",
-                    "path": "<DualShockGamepad>/dpad/right",
+                    "id": "dfc343ed-91b5-46c6-a624-f3afb842c953",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Playstation",
+                    "groups": "",
                     "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "",
-                    "id": "d51f47b1-25a0-45b4-9168-f2cc3f8a5a45",
-                    "path": "<DualShockGamepad>/buttonSouth",
+                    "id": "05bfaec9-9d90-4f5f-8a8f-5e1e9f6a6803",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Playstation",
+                    "groups": "",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -156,6 +101,17 @@
             "devices": [
                 {
                     "devicePath": "<DualSenseGamepadHID>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
                     "isOptional": false,
                     "isOR": false
                 }

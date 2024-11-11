@@ -195,8 +195,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: e12c6168-43fb-4c3f-ab63-c2b452f50ea9
-    m_ActionName: 'Gameplay/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/DualSenseGamepadHID/leftStick/up,/DualSenseGamepadHID/leftStick/down,/DualSenseGamepadHID/leftStick/left,/DualSenseGamepadHID/leftStick/right]'
+    m_ActionId: d5d3470c-a26a-4e0c-9268-3bffbd369e3c
+    m_ActionName: 'Gameplay/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]'
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7761032861102021106}
@@ -211,10 +211,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: d41ead7d-d958-473c-980a-fc41e7f5d368
-    m_ActionName: 'Gameplay/Jump[/DualSenseGamepadHID/buttonSouth]'
+    m_ActionId: cd9acd50-6fc0-481e-b15a-13e489581c4d
+    m_ActionName: 'Gameplay/Jump[/Keyboard/space]'
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Playstation
+  m_DefaultControlScheme: Keyboard
   m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
