@@ -94,7 +94,7 @@
                 {
                     "name": "up",
                     "id": "86ae2a7e-0779-43d6-ae07-133d6811b540",
-                    "path": "<DualShockGamepad>/leftStick/up",
+                    "path": "<DualShockGamepad>/dpad/up",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Playstation",
@@ -105,7 +105,7 @@
                 {
                     "name": "down",
                     "id": "dc88e757-cc29-44fc-81d7-09b4013df7ee",
-                    "path": "<DualShockGamepad>/leftStick/down",
+                    "path": "<DualShockGamepad>/dpad/down",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Playstation",
@@ -116,7 +116,7 @@
                 {
                     "name": "left",
                     "id": "708f1a00-e100-4553-b628-a224341b6510",
-                    "path": "<DualShockGamepad>/leftStick/left",
+                    "path": "<DualShockGamepad>/dpad/left",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Playstation",
@@ -127,7 +127,7 @@
                 {
                     "name": "right",
                     "id": "c7e87c96-a748-4014-94a4-799855e37563",
-                    "path": "<DualShockGamepad>/leftStick/right",
+                    "path": "<DualShockGamepad>/dpad/right",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Playstation",
