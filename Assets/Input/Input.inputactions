@@ -81,8 +81,74 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "2D Vector",
+                    "id": "94c24862-6d28-4c6d-8f50-f28fb8342c08",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "0a0d6ecc-a4d2-484d-8033-e211f0426f73",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "538ef4a8-0075-43b2-8635-d53c71bb6ca7",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "a5b2b0d3-6e7f-4e1e-aa66-423a290b5b22",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "e3d33751-faef-4190-b837-dbb707028857",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "05bfaec9-9d90-4f5f-8a8f-5e1e9f6a6803",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "369d2053-95bf-4558-a194-f8748159ae8c",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
@@ -96,11 +162,11 @@
     ],
     "controlSchemes": [
         {
-            "name": "Playstation",
-            "bindingGroup": "Playstation",
+            "name": "Keyboard",
+            "bindingGroup": "Keyboard",
             "devices": [
                 {
-                    "devicePath": "<DualSenseGamepadHID>",
+                    "devicePath": "<Keyboard>",
                     "isOptional": false,
                     "isOR": false
                 }
