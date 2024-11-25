@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         // Move my character around
-        rbody.linearVelocityX = joystickMovement.x * movementSpeed;
+        rbody.velocityX = joystickMovement.x * movementSpeed;
     }
 
     // Some code that runs when Movement is triggered

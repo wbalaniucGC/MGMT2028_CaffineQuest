@@ -7,7 +7,6 @@ public class ItemBehaviour : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {       
-       
         if(other.transform.CompareTag("Player"))
         {
             Collect();
@@ -19,7 +18,7 @@ public class ItemBehaviour : MonoBehaviour
             // Player picked me up!
 
             // Update the score
-            GameManager.instance.UpdateScore(500);
+            GameManager.instance.UpdateScore();
 
             // Create Item Feedback Object
             GameObject.Instantiate(itemFeedbackObject, transform.position, Quaternion.identity);
